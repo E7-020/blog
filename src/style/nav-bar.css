@@ -1,0 +1,44 @@
+.nav-bar-text{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar-text-block{
+    margin-top: 25px;
+    background-color: black;
+    width: 86px;
+    height: 98px;
+}
+.nav-bar-first-text{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    font-family: 'Anton', sans-serif;
+    
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+.nav-bar-second-text{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 151px;
+    font-family: 'Anton', sans-serif;
+  
+    color: #000000;
+}
+.nav-bar-second-block{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-bar-second-block-link{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+
+}
+

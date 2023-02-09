@@ -1,0 +1,115 @@
+.line {
+    width: 87%;
+    padding-left: 100px;
+    padding-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.line::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: rgb(34, 34, 34);
+}
+
+.news{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.news-block-img{
+    
+    width: 700px;
+    height: 662px;
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.news-block-link-title{
+    padding-top: 470px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.news-block-link-text{
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+
+.news-second-block-img{
+    width: 484px;
+    height: 323px;
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.news-second-block-title{
+    padding-top: 150px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.news-second-block-text{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.news-third-block{
+    padding-top: 16px;
+    
+}
+.news-third-block-img{
+    width: 484px;
+    height: 323px;
+    border-radius: 15px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+
+.news-third-block-title{
+    padding-top: 70px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.news-third-block-text{
+    padding-left: 10px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.second-news{
+padding-left: 16px;
+}
