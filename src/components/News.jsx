@@ -5,9 +5,10 @@ import { useEffect } from "react";
 import { uploadPosts } from "../redux/reducers/postsReducer";
 
 export const News = () => {
-    const dispatch = useDispatch();
 
   const { posts} = useSelector((state) => state.postsReducer);
+
+  const dispatch = useDispatch()
 
   useEffect(() => {
     dispatch(uploadPosts());
@@ -18,10 +19,10 @@ export const News = () => {
 
   return (
     <div>
-      <div className="line"></div>
       <div className="news">
         <div className="news-block">
           <Link 
+          to={`/ReadMore/${posts[0]?._id}`}
           style={{ textDecoration: "none" }}
           >
             <div  style={{ backgroundImage: `url(${posts[0]?.image})` }} className="news-block-img">
@@ -35,6 +36,7 @@ export const News = () => {
         <div className="second-news">
           <div className="news-second-block">
             <Link
+            to={`/ReadMore/${posts[3]?._id}`}
               style={{ textDecoration: "none" }}
             >
             <div style={{ backgroundImage: ` url(${posts[3]?.image})` }} className="news-second-block-img">
@@ -47,6 +49,7 @@ export const News = () => {
 
           <div className="news-third-block">
             <Link
+            to={`/ReadMore/${posts[2]?._id}`}
             style={{ textDecoration: "none" }}
             >
                 <div style={{ backgroundImage: `url(${posts[2]?.image})` }}  className="news-third-block-img">

@@ -40,5 +40,11 @@
     font-family: 'Open Sans', sans-serif;
     color: #000000;
 
+    text-decoration: none;
+    
+}
+.active{
+  
+    border-bottom: 2px solid black;
 }
 

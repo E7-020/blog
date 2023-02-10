@@ -1,0 +1,128 @@
+.common-block{
+    display: flex;
+}
+.categories-blocks{
+    display: flex;
+    margin-top: 78px;
+    margin-left: 50px;
+}
+.categories-header{
+    margin-left: 214px;
+    margin-top: 34px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+
+}
+.categories-blocks-item-img{
+    width: 495px;
+    height: 330px;
+    border-radius: 15px;
+
+  
+}
+.categories-blocks-items-title{
+    width: 400px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.categories-blocks-items-subtitle{
+    width: 291px;
+    
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+
+}
+.categories-blocks-items{
+    padding-left: 10px;
+}
+.categories-blocks-items-link{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    font-family: 'Open Sans', sans-serif;
+    color: #3300FF;
+}
+.categories-line{
+    width: 55%;
+    padding-left: 80px;
+    padding-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.categories-line::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: rgb(34, 34, 34);
+}
+
+.recommended-reading{
+    margin-top: 75px;
+}
+.recommended-reading-header{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    
+    margin-top: 34px;
+   
+}
+.recommended-reading-block-img{
+    width: 495px;
+    height: 330px;
+    border-radius: 15px;
+}
+.recommended-reading-block-title{
+    width: 400px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.recommended-reading-block-subtitle{
+    width: 486px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.recommended-reading-block-link{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #3300FF;
+}
+.rep{
+    display: flex;
+}
+
+.recommended-reading-line{
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.recommended-reading-line::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background: rgb(34, 34, 34);
+}

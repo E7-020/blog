@@ -1,0 +1,39 @@
+.recommend-reading{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 34px;
+
+}
+.recommend-reading-link{
+padding-left: 24px;
+padding-top: 31px;
+}
+.recommend-reading-block-title{
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+.recommend-reading-block{
+   border-radius: 15px;
+    width: 450px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.recommend-reading-link{
+    padding-top: 40px;
+}
+.recommend-reading-text-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    padding-top: 60px;
+}

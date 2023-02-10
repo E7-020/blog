@@ -8,6 +8,7 @@ export const Main = () => {
         <div>
            <News/>
            <LastNews/>
+           
         </div>
     )
 }

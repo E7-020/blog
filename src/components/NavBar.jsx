@@ -16,7 +16,7 @@ export const NavBar = () => {
     }, []);
     if(isLoading){
         return (
-        <Audio className='audio'
+        <Audio
             height = "80"
             width = "80"
             radius = "9"
@@ -26,8 +26,6 @@ export const NavBar = () => {
             wrapperClass
         />
         )
-       
-
 
     }
 
@@ -46,11 +44,14 @@ export const NavBar = () => {
 
             <div className='nav-bar-second-block'>
                 {categories.map((cat) => (
-                <div>
-                    <NavLink  className='nav-bar-second-block-link' style={{ textDecoration: "none" }}>{cat.title}</NavLink>
+                <div key={cat._id}>
+                    <NavLink to={`/Categories/${cat._id}`} className={({isActive}) => "nav-bar-second-block-link" + (isActive ? " active" : "")} >
+                        <span>{cat.title}</span>
+                    </NavLink>
                 </div>
                 ))}
             </div>
+            <div className="line"></div>
         </div>
     )
 }
